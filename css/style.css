@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: radial-gradient(circle at 37.72% -19.64%, #ffffff 0, #ffffff 25%, #ffffff 50%, #e8f2ef 75%, #d4e5df 100%);
+}
+.nav-menu-container{
+    width: 100%;
+
+    display: flex;
+    display: flex;
+    height: 90px;
+}
+
+.nav-menu{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-items-contaienr{
+    width: 100%;
+}
+
+.menu-items{
+    list-style: none;
+    display: flex;
+    padding: 1.5em;
+    margin-right: 80px;
+}
+
+.menu-items a{
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    
+}
+
+.logo-container{
+   width: 220px; 
+   display: flex;
+}
+
+.logo-item{
+    
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin-left: 117px;
+    padding: 0.4em;
+}
+
+.netPhrase{
+    padding: 0.7em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.netPhrase a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-outline{
+    padding: 0px 90px;
+}
+
+.menu-outline hr{
+    color: black;
+}
+
+.hero-container{
+    height: 32em;
+    width: 100%;
+}
+
+.hero-welcome{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 32em;
+    width: 100%;
+    
+    
+}
+
+.hero-welcome-phrase{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+
+}
